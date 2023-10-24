@@ -5,6 +5,7 @@ import RatingSelect from './RatingSelect'
 import { v4 as uuidv4 } from 'uuid'
 import FeedbackContext from '../context/FeedbackContext'
 
+// eslint-disable-next-line no-empty-pattern
 function FeedbackForm({}) {
 	const [text, setText] = useState('')
 	const [rating, setRating] = useState(10)

@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import FeedbackItem from './FeedbackItem'
 import FeedbackContext from '../context/FeedbackContext'
 
+// eslint-disable-next-line no-empty-pattern
 function FeedbackList({}) {
 	const { feedback } = useContext(FeedbackContext)
 
